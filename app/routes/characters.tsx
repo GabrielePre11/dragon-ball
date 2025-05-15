@@ -326,7 +326,7 @@ export default function Characters({ loaderData }: Route.ComponentProps) {
   });
 
   return (
-    <section className="py-24">
+    <section className="py-24 overflow-x-hidden">
       <div className="container grid px-4 max-w-7xl mx-auto">
         {/*================ SECTION TITLE ================*/}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bangers bg-gradient-to-r from-amber-300 to-amber-600 bg-clip-text text-transparent mt-4 mx-auto mb-15 px-4">
